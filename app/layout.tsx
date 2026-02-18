@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Srajit Rastogi | Software Engineer",
-  description: "Portfolio of Srajit Rastogi",
+  title: "Srajit AI Portfolio",
+  description: "AI Powered Portfolio",
 };
 
 export default function RootLayout({
@@ -12,7 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-gray-50 text-gray-900">
+      <body className="bg-[#0B1120] text-white">
         {children}
       </body>
     </html>

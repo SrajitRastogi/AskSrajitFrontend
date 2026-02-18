@@ -13,13 +13,6 @@ export default function Navbar({ openChat }: NavbarProps) {
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
-        <a
-          href="https://github.com/SrajitRastogi"
-          target="_blank"
-          className="hover:text-blue-600 transition"
-        >
-          GitHub
-        </a>
       </div>
 
       <button
