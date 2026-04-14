@@ -68,6 +68,27 @@ export default function Projects() {
                 </li>
               </ul>
             </div>
+            {/* SecurePay */}
+            <div className="bg-[#111827] p-8 rounded-2xl shadow-lg hover:shadow-2xl transition">
+              <h3 className="text-2xl font-semibold mb-4">
+                AI MEETING ASSISTANT – RAG BASED
+              </h3>
+  
+              <p className="text-sm text-blue-400 mb-4">
+                Python • FastAPI • Groq • ChromaDB • LangChain • Embeddings • ReactJs 
+              </p>
+  
+              <ul className="list-disc list-inside space-y-3 text-gray-400 leading-relaxed">
+                <li>
+                  Built a full-stack AI meeting assistant using React (TypeScript) and FastAPI to process transcripts and extract structured insights
+                  (action items, decisions, issues), reducing manual notetaking and improving follow-up efficiency.
+                </li>
+                <li>
+                  Engineered a RAG-based conversational system using LangChain, Groq LLMs, and ChromaDB, enabling semantic search and
+                  memory-aware querying over meeting data
+                </li>
+              </ul>
+            </div>
   
           </div>
         </div>

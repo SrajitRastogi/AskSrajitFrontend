@@ -34,6 +34,14 @@ export default function Experience() {
                 pipelines running on AWS EKS, enabling real-time scoring across
                 6 downstream microservices.
               </li>
+              <li>
+                Integrated LLM APIs into Spring Boot services and built a RAG pipeline using LangChain and LangGraph, improving internal
+                knowledge retrieval speed by 40% and reducing manual lookup effort for operations teams.
+              </li>
+              <li>
+               Cut RAG pipeline latency by 30% and improved answer relevance by optimizing retrieval ranking, embedding caching, and generation
+               flow across LLM services.
+              </li>
   
               <li>
                 Implemented Spring Security with OAuth2 and JWT-based role
